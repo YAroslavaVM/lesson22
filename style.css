@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Buda:wght@300&family=Quicksand:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+
+body{
+    font-family: 'Buda', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.conteinr{
+    padding: 25px 25px 25px 25px;
+    font-size: 24px;
+    font-weight: 450;
+    padding: 25px;
+
+}
+
+.conteinr div{
+    margin: 25px;
+}
+
+.nav{
+    padding: 25px 20px 25px 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+    color: rgba(94, 106, 149, 1);
+}
+
+.bleak{
+    color: black;
+}
+
+li{
+    display: flex;
+}
+
+img{
+    margin: 0 auto;
+    height: 500px;
+    width: 100%;
+    box-shadow: 0px 4px 20px 8px #B4D1FF;
+    border-radius: 41px;
+}
+
+.Abaut-me{
+    background-color: rgba(212, 239, 241, 1);
+    color: rgba(0, 21, 24, 0.72);
+    height: 450px;
+    padding: 10px;
+    border-radius: 35px;
+
+    
+}
+
+.Abaut-me p{
+    text-align: justify;
+    margin: 0 25px 0 25px;
+}
+
+.lien{
+    color: rgba(0, 19, 24, 1);
+    margin: 25px 50px 25px 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.h1 .h2{
+    display: flex;
+    flex-direction: column;
+}
+
+.info h1{
+    margin: 0;
+}
+
+.skills p{
+    text-align: center;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards div{
+    margin: 15px 0 15px;
+}
+
+.contact p{
+    text-align: center;
+}
+
+.icons ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.botten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: rgba(113, 213, 219, 1);
+    padding: 15px 20px 15px 20px;
+    border-radius: 50px;
+    width: 350px;
+    box-shadow: 0px 2px 10px 5px #71D4DB;
+
+}
+
+.button:hover{
+box-shadow: 0px 4px 20px 2.5px #71D4DB;
+
+}
+
+.button p a{
+    text-decoration: none;
+    color: rgba(0, 45, 48, 1);
+    text-align: center;
+}
+
+.icon{
+    font-size: 100px;
+}
